@@ -26,5 +26,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - name: Change Directory
-      run: cd /home/raddy/actions-runner/_work/front-cd-ci/front-cd-ci
+      run: cd /home/yusif/actions-runner/_work/front-cd-ci/front-cd-ci
     - run: pm2 restart 0
